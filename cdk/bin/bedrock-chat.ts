@@ -96,3 +96,12 @@ const chat = new BedrockChatStack(app, `BedrockChatStack`, {
 });
 chat.addDependency(waf);
 chat.addDependency(bedrockRegionResources);
+
+cdk.Tags.of(waf).add("stack-id", 'FrontendWafStack');
+cdk.Tags.of(waf).add("application", 'BedrockChat');
+
+cdk.Tags.of(bedrockRegionResources).add("stack-id", 'BedrockRegionResourcesStack');
+cdk.Tags.of(bedrockRegionResources).add("application", 'BedrockChat');
+
+cdk.Tags.of(chat).add("stack-id", 'BedrockChatStack');
+cdk.Tags.of(chat).add("application", 'BedrockChat');
