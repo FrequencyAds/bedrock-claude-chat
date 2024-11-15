@@ -47,10 +47,10 @@ export const EDGE_MISTRAL_GENERATION_PARAMS = {
 };
 
 export const DEFAULT_GENERATION_CONFIG: GenerationParams = {
-  maxTokens: 2000,
+  maxTokens: 4000,
   topK: 250,
   topP: 0.999,
-  temperature: 0.6,
+  temperature: 0.4,
   stopSequences: ['Human: ', 'Assistant: '],
 };
 
