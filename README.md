@@ -1,3 +1,5 @@
+![Alt](https://repobeats.axiom.co/api/embed/7187af305aee62bb662939e069fb2979f0917852.svg "Repobeats analytics image")
+
 # Bedrock Claude Chat
 
 ![](https://github.com/aws-samples/bedrock-claude-chat/actions/workflows/cdk.yml/badge.svg)
